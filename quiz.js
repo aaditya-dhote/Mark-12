@@ -3,7 +3,7 @@ const submitBtn = document.querySelector(".submit-btn");
 const outputBox = document.querySelector(".output-box");
 
 
-const correctAnswer =["90","right angled","one right angle","45","no"];
+const correctAnswer =["90","right angled","right angle triangle","45","no"];
 
 function totalScore(){
     let score=0;
