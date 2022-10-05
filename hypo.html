@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link href="main.css" rel="stylesheet" />
 </head>
 <body>
     <nav>
-        <h1>Triangles</h1>
-        <ul>
-            <li>
-                <a href="/main.html">Home</a>
+        <h1 class="navName">Triangles</h1>
+        <ul class="list-unbullet">
+            <li class="list-inline">
+                <a class="navLinks" href="/main.html">Home</a>
             </li>
-            <li>
-                <a href="/area.html">Area</a>
+            <li class="list-inline">
+                <a class="navLinks" href="/area.html">Area</a>
             </li>
-            <li>
-                <a href="/quiz.html">Quiz</a>
+            <li class="list-inline">
+                <a class="navLinks" href="/quiz.html">Quiz</a>
             </li>
-            <li>
-                <a href="/hypo.html">Hypotenuese</a>
+            <li class="list-inline">
+                <a class="navLinks" href="/hypo.html">Hypotenuese</a>
             </li>
-            <li>
-                <a href="/index.html">Is triangle?</a>
+            <li class="list-inline">
+                <a class="navLinks" href="/index.html">Is triangle?</a>
             </li>
             
         </ul>
@@ -31,14 +32,19 @@
         
             </nav>
 
-
+<div class="centraliseArea">
     <h1>Get me the hypotenuse</h1>
-    <label for="side1">side 1</label>
+   <div class="distant"><label for="side1">side 1</label>
     <input class = "side1" type = "number"/>
+    </div>
+    <div class="distant">
     <label for="side2">side 2</label>
     <input class = "side2" type = "number"/>
+</div>
     <button id="chkBtn">Check hypotenuse</button>
     <div id="outputBox"></div>
+
+</div>
 </body>
 <script src="hypo.js"></script>
 </html>

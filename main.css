@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+body{
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+
+nav{
+  border:1px solid black;
+  border-radius: 2rem;
+}
+
+.navName{
+  font-size: xx-large;
+  padding:2rem;
+
+}
+
+.navLinks{
+    text-decoration: none;
+
+}
+
+.list-unbullet{
+    list-style: none;
+    text-align: right;
+   
+    }
+
+    .list-inline
+    {display: inline;
+      padding: 0rem 2rem;
+    }
+
+body{
+  background-color: #99f6e4;
+}    
+
+.linkList{
+margin: auto;
+text-align: center;
+padding:3rem;
+}
+
+.listUnbullet{
+  list-style: none;
+  
+}
+.mainList{
+  padding:1rem;
+}
+
+.heading{
+  text-align: center;
+ margin: 4rem;
+}
+
+p{
+  text-align: center;
+}
+
+
+
+.centraliseArea{
+  text-align: center;
+  margin:1rem;
+  
+}
+
+.distant{
+  padding:2rem;
+}
+
+.chk-btn{
+  border:1px solid black;
+  border-radius: 1rem;
+  color:#99f6e4;
+  background-color: black;
+}
+
+.centraliseQues{
+  text-align: center;
+}
+
+.submit-btn{
+  border:1px solid black;
+  border-radius: 1rem;
+  color:#99f6e4;
+  background-color: black;
+}
+
+#chkBtn{
+  border:1px solid black;
+  border-radius: 1rem;
+  color:#99f6e4;
+  background-color: black;
+}
+
+.checkBtn{
+  border:1px solid black;
+  border-radius: 1rem;
+  color:#99f6e4;
+  background-color: black;
+
+}
+
+
