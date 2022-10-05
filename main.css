@@ -104,4 +104,15 @@ p{
 
 }
 
+.output-box{
+  text-align: center;
+  font-size: larger;
+}
 
+#outputBox{text-align: center;
+  font-size: larger;
+margin:2rem;}
+
+.output{text-align: center;
+  font-size: larger;
+margin:2rem;}
